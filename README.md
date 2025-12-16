@@ -1783,25 +1783,6 @@ Thanks to the development teams of the following tools:
 
 ---
 
-**Last Updated**: 2025-11-04  
-**Workflow Version**: 5.2.1  
-**Design Philosophy**: Three-tool parallel independent analysis, comprehensive comparison, confidence stratification
 
-**Happy viral hunting!** 
-
----
-
-## Get Started Now
-
-```bash
-# 1. Clean cache (if previously run)
-rm -rf work/ .nextflow*
-
-# 2. Run workflow
-sbatch run_metagenome_assembly_classification_longread.sh
-
-# 3. Wait for completion, view results
-cat results_long/three_tools_comparison/*_comparison.txt
-```
 
 
